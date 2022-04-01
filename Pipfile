@@ -16,6 +16,10 @@ ptpython = "*"
 django-localflavor = "*"
 redis = "*"
 django-environ = "*"
+django-debug-toolbar = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
