@@ -15,6 +15,7 @@ django-parler = "*"
 ptpython = "*"
 django-localflavor = "*"
 redis = "*"
+django-environ = "*"
 
 [dev-packages]
 
