@@ -10,6 +10,7 @@ celery = "*"
 flower = "*"
 braintree = "*"
 weasyprint = "*"
+django-rosetta = "*"
 
 [dev-packages]
 
