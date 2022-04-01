@@ -8,6 +8,8 @@ django = "*"
 pillow = "*"
 celery = "*"
 flower = "*"
+braintree = "*"
+weasyprint = "*"
 
 [dev-packages]
 
