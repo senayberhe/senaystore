@@ -1,0 +1,56 @@
+ ### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+
+*.pot
+# Django stuff:
+*.log
+db.sqlite3
+# Sphinx documentation
+docs/_build/
+   
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+env/
+
+# Media and Static directories
+/media/
+!/media/.gitkeep
+/static/
+!/static/.gitkeep
+
+# Secrets
+secrets.json
+
+
+myshop/.env
+Screen Shot 2022-10-18 at 3.28.36 PM.png
+Screen Shot 2022-10-18 at 3.29.09 PM.png
+Screen Shot 2022-10-18 at 3.29.31 PM.png
+Screen Shot 2022-10-18 at 3.32.50 PM.png
+Screen Shot 2022-10-18 at 3.35.16 PM.png
