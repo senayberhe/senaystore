@@ -19,6 +19,8 @@ django-localflavor = "==3.1"
 whitenoise = "*"
 gunicorn = "*"
 dj-database-url = "*"
+psycopg2-binary = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
