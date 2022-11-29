@@ -21,6 +21,8 @@ gunicorn = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
 psycopg2 = "*"
+pip = "*"
+django-environ = "*"
 
 [dev-packages]
 

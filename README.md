@@ -1,24 +1,27 @@
-Implement authentication using the Django authentication framework
-Extend the user model with a custom profile model
-Use the Diango messages framework
-Build a custom authentication backend
-Implement social authentication (OAuth2) with Facebook, Twitter, and Google using Python Social Auth
-Use django-extensions to run the development server through HTTPS
-Generate image thumbnails with easy-thumbnails
-Implement many-to-many relationships in models
-Build a JavaScript bookmarklet with JavaScript and Django
-Add asynchronous HTTP requests with the JavaScript Fetch API and Django
-Implement infinite scroll pagination
-Build a user follow system
-Create a user activity stream and optimize QuerySets
-Learn to use Django signals
-Use django-debug-toolbar to obtain relevant debug information
-Count image views with Redis
-Build an image ranking with Redis
-
-
-# Your Project Title
+# Senay Store
 > Write a little description about your project. 2-3 sentances are enough.
+
+
+    Build the models of the product catalog
+    Create a shopping cart using Django sessions
+    Create custom context processors
+    Manage customer orders
+    Send asynchronous notifications using Celery and RabbitMQ
+    Monitory Celery using Flower
+    Integrate Stripe to process payments
+    Implement a webhook to receive payment notifications from Stripe
+    Build custom views in the Django administration site
+    Create admin actions and generate CSV files
+    Generate PDF invoices dynamically using Weasyprint
+    Create a coupon system to apply disconts to orders
+    Integrate discounts with Stripe payments
+    Build a product recommendation engine using Redis
+    Add internationalization to the shop
+    Generate and manage translation files
+    Use Rosetta to manage translations
+    Translate URL patterns and build a language selector
+    Translate models using django-parler
+    Localize forms using django-localflavor
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
