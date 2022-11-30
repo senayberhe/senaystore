@@ -1,24 +1,33 @@
 import os 
-import environ
+import json 
 
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
-
-
+from django.core.exceptions import ImproperlyConfigured
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-env = environ.Env()
-environ.Env.read_env()
+
+with open(os.path.join(os.path.dirname(__file__), 'secrets.json'), 'r') as f:
+    secrets = json.loads(f.read())
+
+
+def get_secret(setting):
+    """Get the secret variable or return explicit exception."""
+    try:
+        return secrets[setting]
+    except KeyError:
+        error_msg = f'Set the {setting} secret variable'
+        raise ImproperlyConfigured(error_msg)
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = get_secret('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -157,10 +166,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Stripe settings
-STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY') # Publishable key
-STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')   # Secret key
+STRIPE_PUBLISHABLE_KEY = get_secret('STRIPE_PUBLISHABLE_KEY') # Publishable key
+STRIPE_SECRET_KEY = get_secret('STRIPE_SECRET_KEY')   # Secret key
 STRIPE_API_VERSION = '2022-08-01'
-STRIPE_WEBHOOK_SECRET = os.environ.get('STRIPE_WEBHOOK_SECRET')
+STRIPE_WEBHOOK_SECRET = get_secret('STRIPE_WEBHOOK_SECRET')
 
 
 # Redis settings
