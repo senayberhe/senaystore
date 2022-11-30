@@ -1,1 +1,1 @@
-web: gunicorn myshop.wsgi
+web: python manage.py migratre && gunicorn myshop.wsgi
