@@ -32,7 +32,7 @@ SECRET_KEY = get_secret('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'web-production-386f.up.railway.app']
+ALLOWED_HOSTS = ['*', 'senaystore.up.railway.app']
 
 
 # Application definition
