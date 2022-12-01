@@ -1,153 +1,87 @@
-# Senay Store
-> Write a little description about your project. 2-3 sentances are enough.
+# Senay Store App
+
+## Steps to Run the Application
+
+Pull the repository into your device and run it as you used to run Django Application.
+
+-   (You need to install 'requirements.txt' if you don't have these already)
+
+-   (You also need to build React Application as it has been ignored in git and also need node_modules.)
+
+-   Note: You need to provide your Google Account Details in Settings File.
+
+OR You can simply go through the below link.
+
+### Link: https://senaystore.herokuapp.com
+
+## User View
+
+### 1. Home Page
+
+When you first open the application, you will see the home page where you can see the search options and default search results just below. You will see two menu icons (One at right top and another at left top).
+
+![Senay Store-Home](img.png)
+
+### 2. Listing Page
+
+You can see all the listings here.
+
+![Senay Store-Listing](img1.png)
+
+### 3. About Page
+
+In about page, you can see about the company, top sellers and listed sellers.
+
+![Senay Store-About](img2.png)
+
+### 4. Contact Page
+
+There is a seperate contact page from where you can contact to the company. You will also get response email after sending messages.
+
+![Senay Store-Contact]('img3.png')
+
+### 5. Login and Signup Page
+
+You need an account to view the details page and make order. For that you just need to go to Signup page and create an account.
 
 
-    Build the models of the product catalog
-    Create a shopping cart using Django sessions
-    Create custom context processors
-    Manage customer orders
-    Send asynchronous notifications using Celery and RabbitMQ
-    Monitory Celery using Flower
-    Integrate Stripe to process payments
-    Implement a webhook to receive payment notifications from Stripe
-    Build custom views in the Django administration site
-    Create admin actions and generate CSV files
-    Generate PDF invoices dynamically using Weasyprint
-    Create a coupon system to apply disconts to orders
-    Integrate discounts with Stripe payments
-    Build a product recommendation engine using Redis
-    Add internationalization to the shop
-    Generate and manage translation files
-    Use Rosetta to manage translations
-    Translate URL patterns and build a language selector
-    Translate models using django-parler
-    Localize forms using django-localflavor
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+![Senay Store -Signup](img4.png)
 
+![senay store -Login](img5.png)
 
-![](https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png)
+### 6. Details Page
 
+You can view the details page after logging in. You can see the complete details about the house/condo/townhouse in this page. You can also see the images and description of those and about the seller also. You can also contact the seller directly from the contact section.
+If you want to buy, then you just need to click on "BUY NOW" button.
 
-## Requirements  (Prerequisites)
-Tools and packages required to successfully install this project.
-For example:
-* Linux [Install](https://link-for-setup-guide)
-* Python 3.3 and up [Install](https://link-for-setup-guide)
+![senay Store-Home](img6.png)
 
-## Installation
-A step by step list of commands / guide that informs how to install an instance of this project. 
+### 7. Buy Page
 
-`$ pip install foobar`
+You can use "DISCOUNT100" coupon to buy that item. If you could buy that item successfully, then you will get confirmation message there only.
 
-`$ npm install project-name --save`
+![Senay Store](img.png)
 
-`$ any other command`
+### 8. Profile Page
 
-For Linux and OS X
+In profile page, you can see about your info as well as the orders you have made. You can see your buyings on clicking on the Item Name coloured in blue.
 
-`npm install project-name --save`
+![senay Store -Profile](img3.png)
 
-For Windows
+### 9. Brought Page
 
-`git clone project-url`
- 
-## Screenshots
-Use this space to give a little demo of your project. Attach important screenshots if applicable. This section is optional and might not be applicable in some cases.
+You can see full details about what you have brought.
 
-![Screenshots of projects](https://dradisframework.com/images/pro/screenshots/screenshot-62_small.png)
+![Senay Store](img2.png)
 
-![Screenshots of the project](http://securityroots.com/blog/wp-content/uploads/2013/12/snowcrash-01.png)
+### 10. Admin Page
 
-## Features
-Write a little about unique features of your project and what makes it outstanding. Describe the functionalities of your project. You can make a list of it with some descriptions, like:
-* Used Bootstrap to make it 100% responsive
-* Used AI/ML to automate some stuff
-* Etc Etc......
+From the admin page, you can manage almost all things.
 
-## Usage example
-Show how and what your project does. Users should figure out how your project solves their problem by looking at the code example. Spice this up with code blocks and potentially more screenshots. These examples should motivate the users to use your project. 
-```python
-import foobar
+![Senay Store - Admin](img4.png)
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-``` 
+## Thank You
 
-Mention any other documentation or live example available for reverence.
-
-## Running the tests
-Describe and show how to run the tests with code examples.. Explain how to run the automated tests for this system.  Also explain how to test and why to test.
-
-Give code examples as:
-1. `test example 1`
-2. `test example 2`
-3. `npm test`
-4. `test till you finish`
-
-## Deployment Notes
-Explain how to deploy your project  on a live server. To do so include step by step guide. Potentially do this for multiple platforms. 
-```sh
-virtualenv foobar
-npm test
-make install 
-pip install -e .
-More examples please....
-```
-
-## Tech Stack / Built With
-List down the technology / frameworks / tools / technology you have used in this project.
-1. [Laravel](https://laravel.com/) - The PHP framework
-2. [IPFS](https://ipfs.io/)  - A peer-to-peer hypermedia protocol to make the web faster, safer, and more open. 
-3. [Android](https://www.android.com/) - The world’s most popular mobile OS
-
-## How to Contribute
-Mention how anyone can contribute to make this project more productive or fix bugs in it.  
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
-
-Steps to contribute:
-1. Fork this repository (link to your repository)
-2. Create your feature branch (git checkout -b feature/fooBar)
-3. Commit your changes (git commit -am 'Add some fooBar')
-4. Push to the branch (git push origin feature/fooBar)
-5. Create a new Pull Request
-
-Additionally you can create another document called CONTRIBUTING.md which gives instructions about how to contribute. 
-
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-Write about yourself or your organization, who created this project. For example:
- 
-Sagar Ganiga  – tech.ganiga@gmail.com
- 
- You can find me here at:
-[Github](https://github.com/SagarGaniga)
-[LinkedIn](https://www.linkedin.com/in/sagar-ganiga/)
-
-## Credits
-Give credits to all the useful resources you used to create this project. It could be a link to any repository which inspired you to build this project, any blog or links to people who contributed in this project.
-
-A heartfelt thank you to [@UjalaJha](https://github.com/UjalaJha) for the encouragement I needed to get this idea off the ground and start writing!
-
-Thank you to the following awesome geeks for sending PRs and improving the Quality of this project ❤️
-* [@UjalaJha](https://github.com/UjalaJha)
-
-Here's a list of other related projects / blogs which helped me in creating the best possible version of my project:
-* [README-Template.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by [@PurpleBooth](https://gist.github.com/PurpleBooth)
-* [A Beginners Guide to writing a Kickass README ✍](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) by Akash Nimare
-* [readme-best-practices](https://github.com/jehna/readme-best-practices) by [@jehna](https://github.com/jehna/)
-* [readme-template](https://github.com/dbader/readme-template/blob/master/README.md) by [@dbader](https://github.com/dbader/)
-* [art-of-readme](https://github.com/noffle/art-of-readme/blob/master/README.md) by [@noffle](https://github.com/noffle/)
-* [Make a README](https://www.makeareadme.com/)
-
-## License
-A short snippet describing the license (MIT, Apache etc).
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-MIT © Yourname
+## Senay Berhe
 
