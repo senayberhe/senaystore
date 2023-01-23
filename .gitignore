@@ -45,9 +45,14 @@ env/
 !/static/.gitkeep
 
 # Secrets
-secrets.json
+
+
 
 
 myshop/.env
 
-myshop/secrets.json
+/Users/senayberhe/Documents/project/senaystore/im3.png
+/Users/senayberhe/Documents/project/senaystore/img2.png
+/Users/senayberhe/Documents/project/senaystore/img4.png
+/Users/senayberhe/Documents/project/senaystore/img5.png
+/Users/senayberhe/Documents/project/senaystore/img6.png
