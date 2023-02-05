@@ -1,5 +1,18 @@
 # Senay Store App
 
+<p align="center">
+  <a href="https://github.com/bhimrazy/create-py-project"><img src="https://user-images.githubusercontent.com/46085301/193515011-ba3e2858-c9cd-4c2b-8f4d-737625505b50.png" alt="senay-store"></a>
+</p>
+<p align="center">
+    <em>The awesome tool to create python projects.</em>
+</p>
+
+<p align="center">
+<a href="https://codecov.io/gh/bhimrazy/fastapi" target="_blank">
+    <img src="https://img.shields.io/codecov/c/github/tiangolo/fastapi?color=%2334D058" alt="Coverage">
+</a>
+</p>
+
 ## Steps to Run the Application
 
 Pull the repository into your device and run it as you used to run Django Application.

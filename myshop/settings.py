@@ -160,10 +160,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Stripe settings
-STRIPE_PUBLISHABLE_KEY = get_secret('STRIPE_PUBLISHABLE_KEY') # Publishable key
-STRIPE_SECRET_KEY = get_secret('STRIPE_SECRET_KEY')   # Secret key
+STRIPE_PUBLISHABLE_KEY = env('STRIPE_PUBLISHABLE_KEY') # Publishable key
+STRIPE_SECRET_KEY = env('STRIPE_SECRET_KEY')   # Secret key
 STRIPE_API_VERSION = '2022-08-01'
-STRIPE_WEBHOOK_SECRET = get_secret('STRIPE_WEBHOOK_SECRET')
+STRIPE_WEBHOOK_SECRET = env('STRIPE_WEBHOOK_SECRET')
 
 
 # Redis settings
