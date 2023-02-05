@@ -1,7 +1,7 @@
 # Senay Store App
 
 <p align="center">
-  <a href="https://github.com/bhimrazy/create-py-project"><img src="https://user-images.githubusercontent.com/46085301/193515011-ba3e2858-c9cd-4c2b-8f4d-737625505b50.png" alt="senay-store"></a>
+  <a href="https://github.com/bhimrazy/senay-store"><img src="https://user-images.githubusercontent.com/46085301/193515011-ba3e2858-c9cd-4c2b-8f4d-737625505b50.png" alt="senay-store"></a>
 </p>
 <p align="center">
     <em>The awesome tool to create python projects.</em>
