@@ -15,10 +15,10 @@ django-rosetta = "*"
 psycopg2-binary = "*"
 django-parler = "*"
 stripe = "*"
-celery = "*"
 flower = "*"
 pillow = "*"
 django-localflavor = "*"
+celery = "==5.2.7"
 
 [dev-packages]
 

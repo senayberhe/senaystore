@@ -3,15 +3,8 @@
 <p align="center">
   Senay Store App
 </p>
-<p align="center">
-    <em>The awesome tool to create python projects.</em>
-</p>
 
-<p align="center">
-<a href="https://codecov.io/gh/bhimrazy/fastapi" target="_blank">
-    <img src="https://img.shields.io/codecov/c/github/tiangolo/fastapi?color=%2334D058" alt="Coverage">
-</a>
-</p>
+
 
 ## Steps to Run the Application
 
