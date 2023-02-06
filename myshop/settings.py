@@ -25,7 +25,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'senaystore.up.railway.app']
+ALLOWED_HOSTS = ['*', 'senaystore.onrender.com']
 
 
 # Application definition
